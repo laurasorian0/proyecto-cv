@@ -12,7 +12,7 @@ export const data = {
   title: "Lista para hacer realidad tu próxima idea.",
   email: "laura130512@gmail.com",
   avatar:
-    "./public/IMG_5571.JPG",
+    "/IMG_5571.JPG",
   aboutMe:
     "Soy Laura, productora audiovisual y estudiante Full Stack developer. Adoro los nuevos retos, por lo que estoy deseando empezar con nuevos proyectos en los que mejorar profesional y personalmente.",
 
@@ -21,13 +21,13 @@ export const data = {
       degree: "Realización de Proyectos Audiovisuales y Espectáculos",
       university: "Campus EUSA",
       graduationYear: 2018,
-      image: "./public/realizadora.jpeg"
+      image: "/realizadora.jpeg"
     },
     {
       degree: "Full Stack Developer",
       university: "Power The Rock (The Power)",
       graduationYear: 2024,
-      image: "./public/La_hackaton_de_mujeres_1.png"
+      image: "/La_hackaton_de_mujeres_1.png"
     }
   ],
   workExperience: [
@@ -61,13 +61,11 @@ export const data = {
       description:
         "Diseño de una aplicación con filtros para aprender a usarlos correctamente",
       link: "https://65a41ac2cd15ada1f4b17cb6--curious-kangaroo-c7022b.netlify.app/",
-      preview: "./public/Filtros.png/",
     },
     {
       title: "Búsqueda Pinterest",
       description: "Recreación de la plataforma Pinterest para usar una API y aplicar búsquedas desde la web.",
       link: "https://neon-entremet-3c0465.netlify.app/",
-      preview: "./public/Pinterest.png/"
     },
   ],
 };
