@@ -1,0 +1,33 @@
+.button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  line-height: normal;
+  cursor: pointer;
+  padding-bottom: 10px;
+  margin: var(--rtc-margin-s);
+  color: var(--rtc-color-2);
+  position: relative;
+  display: inline-block;
+  padding: var(--rtc-padding-xs);
+}
+
+
+.button::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px; 
+  width: 0;
+  background-color: var(--rtc-color-4); 
+  transition: width 0.3s ease; 
+}
+
+.button:hover::before {
+  width: 100%; 
+}
+

@@ -1,0 +1,69 @@
+img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.divImg {
+  width: 100%;
+  overflow: hidden;
+  min-width: 200px;
+  max-width: 30%;
+  cursor: pointer;
+
+}
+.AboutmeAvatar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: var(--rtc-padding-xxl);
+  gap: var(--rtc-gap-xxl);
+}
+
+.divAboutMe{
+  display: flex;
+  flex-direction: column;
+  gap: var(--rtc-gap-xl);
+  padding: var(--rtc-padding-xxl);
+  border-top: 1px solid #000; 
+  border-bottom: 1px solid #000; 
+}
+@media (max-width: 700px) {
+
+  .divAboutMe{
+
+    gap: var(--rtc-gap-l);
+    padding: var(--rtc-padding-s);
+
+  }
+  .AboutmeAvatar{
+
+    padding: var(--rtc-padding-xl);
+    gap: var(--rtc-gap-xl);
+  }
+}
+
+
+@media (max-width: 525px) {
+  h3{
+    font-size: 15px;
+  }
+  h1{
+    font-size: 20px;
+  }
+
+  .divAboutMe{
+    gap: var(--rtc-gap-m);
+    
+  }
+
+  .AboutmeAvatar{
+
+    padding: var(--rtc-padding-l);
+    gap: var(--rtc-gap-l);
+  }
+  .divImg {
+    min-width: 150px;
+  
+  }
+}

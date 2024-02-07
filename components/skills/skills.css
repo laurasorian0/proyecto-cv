@@ -1,0 +1,46 @@
+.buttonSkill { 
+  padding: var(--rtc-padding-m);
+  border: 1px solid var(--rtc-color-4);
+  color: var(--rtc-color-4);
+  background-color: var(--rtc-color-2);
+  cursor: pointer;
+  margin: var(--rtc-margin-s);
+  text-align: center;
+  padding-bottom: var(--rtc-padding-m);
+  border-radius: 8px;
+  min-width: 104px;
+}
+
+.buttonSkill:hover{
+  background-color: var(--rtc-color-4);
+  color: var(--rtc-color-2);
+}
+
+.sectionSkills{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 200px;
+}
+
+@media (max-width: 650px) {
+  .buttonSkill { 
+
+    margin: var(--rtc-margin-s);
+    text-align: center;
+    padding-bottom: var(--rtc-padding-m);
+    min-width: 90px;
+    text-align: center;
+    padding: var(--rtc-padding-s);
+  }
+  .sectionSkills{
+    margin: 0 100px;
+  }
+}
+
+@media (max-width: 450px) {
+  .sectionSkills{
+    margin: 0 50px;
+  }
+}

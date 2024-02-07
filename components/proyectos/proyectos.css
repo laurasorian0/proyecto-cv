@@ -1,0 +1,25 @@
+a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--rtc-gap-s);
+  color: var(--rtc-color-3);
+  max-width: 523px;
+  padding: var(--rtc-padding-m);
+}
+
+.sectionProyectos{
+  display: flex;
+  gap: var(--rtc-gap-m);
+  padding: var(--rtc-padding-m);
+  margin-bottom: var(--rtc-margin-xl);
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: var(--rtc-color-4);
+}
+
+a h5 {
+  font-size: 20px;
+}

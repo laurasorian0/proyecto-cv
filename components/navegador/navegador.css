@@ -1,0 +1,35 @@
+.divNav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--rtc-padding-l);
+  margin-top: var(--rtc-margin-l);
+  margin-bottom: var(--rtc-margin-l);
+  gap: var(--rtc-gap-l);
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.divMenu{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+h2{
+  width: 100%;
+  color: var(--rtc-color-2);
+}
+
+@media (max-width: 470px) {
+  h2{
+    font-size: 15px;
+  }
+  .divNav{
+    gap: var(--rtc-gap-s);
+  }
+}
